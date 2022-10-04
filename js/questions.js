@@ -15,20 +15,20 @@ answer: 'alerts',
 {
 
 title:'Arrays in JavaScript can be ussed to store__'
-choices [
+choices: [
     'numbers and strings','other arrays','boleans','all of the above'],
 
 ]
 answer:'all of the above'
-
 }
 {
 
-    title: 'String values must be neclodded within___ when being assigned to variables.'
+    title: 'String values must be enlosed within___ when being assigned to variables.'
     choices:[
+        'single quotes', 'double quotes', 'curly brackets' ,'none of the above',
 
     ]
-    answer:
+    answer: 'double quotes'
 
 
 }
