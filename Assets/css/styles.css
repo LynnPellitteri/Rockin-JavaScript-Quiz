@@ -40,4 +40,11 @@ wrapper {
 .startPage {
     width: 800px;
 
+
 }
+.element {
+    @include invisible(visible);
+  }
+  .element {
+    @include invisible(hidden);
+  }
