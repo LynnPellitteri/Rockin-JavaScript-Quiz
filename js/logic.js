@@ -1,30 +1,20 @@
-
+var startScreen = document.getElementById('startScreen');
 var startButton = document.getElementById('startButton');
-var letsBegin = document.getElementById('questions');
+var questionsEl = document.getElementById('questions');
 var timerId = document.getElementById("timer");
 
     var currentQuestion = ""
-    var time = 60
+    var timer = 60
     var timerId =
 
 // FUNCTION TO START THE QUIZ
 function letsBegin() {
-timer--;
-timerElement.timerId = time;
-}
-if (timerCount >= 0) {
-{
-if (isWin && timerCount > 0) {
-}
- 
-  // hide start screen 
   document.getElementById('startButton').style.display = 'none';
-  // un-hide questions section
  letsBegin.removeAttribute('class','hide');
-  //document.getElementById('questions').style.display = '';
+ timerId.getElementById('questions').style.display = '';
   
   // start timer
-letsBegin() {
+letsBegin(); {
   document.getElementById("element").style.display = "block";
   alert.timeSet;
 }
@@ -39,15 +29,15 @@ letsBegin() {
 }
 
 function startTimer(){
-  timerInterval = setInterval(function) {
+  timerInterval = setInterval; {
   timerCount--;
   timerId.textContent=timerCount;
   if (timerCount === 0){
     clearInterval(timerInterval);
   }
-}, 10000);
+} 10000;
   }
-startButton.addEventListener('click',startQuiz)
+//startButton.addEventListener('click',startQuiz)
 // hide start screen 
   
   // un-hide questions section
@@ -57,7 +47,7 @@ startButton.addEventListener('click',startQuiz)
   // show starting time
 
   getQuestion();
-}
+
 
 /// FUNCTION TO GET/SHOW EACH QUESTION ///
 function getQuestion() {
@@ -83,7 +73,7 @@ function questionClick(event) {
   if (answer === "") {
     displayMessage('correct!',"Rockin and Rollin");
 
-  } else (answer !=== "") {
+  } else (answer !== "" ); {
     displayMessage('wrong!', 'No Worries You will Rock One Day' );
 
   }
@@ -144,7 +134,7 @@ localStorage.setitem(saveHighscore, "")
 
   // user clicks on element containing choices
 
-scores.js from start up
+//scores.js 
 function printHighscores() {
   // either get scores from localstorage or set to empty array
 
@@ -158,7 +148,7 @@ function printHighscores() {
 
 /// FUNCTION TO CLEAR SCORES ///
 function clearHighscores() {
-  // remove an item from local storage
+  // remove an item from local storag
   // reload the page
 }
 

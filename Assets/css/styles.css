@@ -1,10 +1,41 @@
 *{
-    margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    
 }
 
-body{
-    background: #007bff;
+body {
+    display:flex;
+    width: 100vw;
+    height: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.scores {
+
+}
+h1{
+    text-align: center;
+}
+
+.p{
+    text-align: center;
+}
+
+#start-page{
+text align:center;
+padding:25px;
+
+}
+body {
+    background: ;
+}
+
+.hide {
+    display: none;
+}
+
+.button {
+    purple
 }
