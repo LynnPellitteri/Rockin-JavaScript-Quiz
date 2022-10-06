@@ -3,13 +3,15 @@ var startButton = document.getElementById('startButton');
 var questionsEl = document.getElementById('questions');
 var timerId = document.getElementById("timer");
 
-    var currentQuestion = ""
+    var currentQuestion = 0;
+    var totalScore = 99;
     var timer = 60
     var timerId =
 
 // FUNCTION TO START THE QUIZ
 function letsBegin() {
-  document.getElementById('startButton').style.display = 'none';
+var startScreen = document.getElementById('Start Screen')
+startScreen.style.display = 'none';
  letsBegin.removeAttribute('class','hide');
  timerId.getElementById('questions').style.display = '';
   

@@ -4,8 +4,13 @@
     font-family: 'Poppins', sans-serif;
     
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
 
-body {
+wrapper {
     display:flex;
     width: 100vw;
     height: 100vw;
@@ -13,29 +18,26 @@ body {
     align-items: center;
 }
 .scores {
-
-}
-h1{
+    text-decoration: none;
+    color: ;
+    font-weight: bold;
+    font-family: serif;
     text-align: center;
-}
-
-.p{
-    text-align: center;
-}
-
-#start-page{
-text align:center;
-padding:25px;
-
-}
-body {
-    background: ;
-}
 
 .hide {
     display: none;
+    text-align:center;
 }
 
 .button {
-    purple
+
+    display: flexbox;
+    justify-content: center;
+    color: purpl;
+    color: white;
+}
+
+.startPage {
+    width: 800px;
+
 }
