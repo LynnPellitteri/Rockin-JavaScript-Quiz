@@ -1,7 +1,7 @@
 *{
-    
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    background-color: var(purple);
+    color:beige;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
     
 }
 header {
@@ -37,14 +37,35 @@ wrapper {
     color: white;
 }
 
-.startPage {
+.startScreen {
     width: 800px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
 
-
-}
-.element {
-    @include invisible(visible);
-  }
-  .element {
-    @include invisible(hidden);
-  }
+    button:hover {
+        border: 1px solid  #c2cae8;
+        border-radius:  10px;
+        font-size: large;
+        font-weight: bold;
+        background-color: #c2cae8;
+        color: #0e9594;
+    }
+    
+    
+    #start:hover {
+        border: 5px solid  #c2cae8;
+        border-radius:  10px;
+        font-size: large;
+        font-weight: bold;
+        background-color: #c2cae8;
+        color: #0e9594;
+    }
+    
+    #highscore:hover {
+        border: 5px solid  #c2cae8;
+        font-size: large;
+        font-weight: bold;
+        background-color: #0e9594;
+        color: #c2cae8;
+    }
